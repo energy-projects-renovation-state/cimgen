@@ -15,7 +15,7 @@ jobs:
       with:
         submodules: recursive
     - name: Set up Go
-      uses: actions/setup-go@v5
+      uses: actions/setup-go@v6
       with:
         go-version: '1.24' # Specify the version of Go you want to use
         cache: true # Caches Go modules for faster subsequent runs
